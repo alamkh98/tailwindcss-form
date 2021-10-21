@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <title>Form</title>
+    <style>
+
+    </style>
+</head>
+
+<body class=" bg-gray-300 text-gray-800">
+
+    <div>
+        <!--nav bar and dropdown-->
+
+
+    </div>
+    <div>
+        <div class=" flex bg-white rounded-lg p-10 m-10 justify-between	 items-center flex-wrap">
+            <div class="lg:w-4/12 w-full">
+                <!-- form -->
+                <h1 class=" capitalize text-red-500 text-2xl tracking-whider font-semibold">
+                    get started
+                </h1>
+                <form>
+                    <lable class=" capitalize  block text-gray-700 mt-6 mb-3   ">name</lable>
+                    <input class="rounded-lg bg-gray-200 border-gray-300 outline-none px-3 py-4 w-full" type="text " placeholder="name">
+                    <lable class="capitalize block block text-gray-700  mt-6 mb-3  ">email</lable>
+                    <input class="  rounded-lg bg-gray-200 border-gray-300 outline-none px-3 py-4 w-full " type="text " placeholder="email">
+                    <lable class="capitalize block block text-gray-700 mt-6 mb-3  ">password</lable>
+                    <input class="rounded-lg bg-gray-200 border-gray-300 outline-none px-3 py-4 w-full" type="text   " placeholder="password">
+                    <div class="flex mt-6">
+                        <!-- button-->
+                        <button class=" capitalize bg-red-500 rounded-lg text-white  px-3 py-4 w-8/12">
+                        sign up
+                      </button>
+                        <button class=" px-5 capitalize w-4/12 text-red-500  px-3 py-4">
+                        sign in
+                      </button>
+
+                    </div>
+
+                    <div class=" flex mt-6 items-center">
+                        <p><input type="checkbox" class="mr-2 w-4 h-4  leading-tight"> I agree to the
+                            <a href=".." class="text-red-500">tearms of service</a> and
+                            <a href=".." class="text-red-500"> privacy police</a>
+                        </p>
+
+                    </div>
+
+                </form>
+
+            </div>
+            <div class="lg:w-7/12">
+                <!-- photo or image -->
+                <img src="undraw_online_message_re_3m5v.png">
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div>
+        <!--footer -->
+    </div>
+</body>
+
+</html>
